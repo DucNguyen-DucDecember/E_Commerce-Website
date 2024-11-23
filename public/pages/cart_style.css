@@ -1,0 +1,23 @@
+span.icon-minus{
+    padding: 8px;
+    border: 1px solid;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+span.icon-plus{
+    padding: 8px;
+    border: 1px solid;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+span.icon-minus:hover{
+    border: 1px solid red;
+    color: red;
+}
+
+span.icon-plus:hover{
+    border: 1px solid green;
+    color: green;
+}

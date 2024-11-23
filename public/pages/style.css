@@ -1,0 +1,12 @@
+/*STYLE*/
+@import 'http://localhost/project_badminton_shop/public/pages/css/import/fonts.css';
+@import 'http://localhost/project_badminton_shop/public/pages/css/import/global.css';
+@import 'http://localhost/project_badminton_shop/public/pages/css/import/header.css';
+@import 'http://localhost/project_badminton_shop/public/pages/css/import/footer.css';
+@import 'http://localhost/project_badminton_shop/public/pages/css/import/home.css';
+@import 'http://localhost/project_badminton_shop/public/pages/css/import/category_product.css';
+@import 'http://localhost/project_badminton_shop/public/pages/css/import/blog.css';
+@import 'http://localhost/project_badminton_shop/public/pages/css/import/detail_product.css';
+@import 'http://localhost/project_badminton_shop/public/pages/css/import/detail_blog.css';
+@import 'http://localhost/project_badminton_shop/public/pages/css/import/cart.css';
+@import 'http://localhost/project_badminton_shop/public/pages/css/import/checkout.css';
