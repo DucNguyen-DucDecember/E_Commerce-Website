@@ -52,9 +52,11 @@
                                 <div class="action clearfix">
                                     <a href="" type="button" title="Thêm giỏ hàng" class="add-cart fl-left"
                                         data-id="{{$item->id}}">Thêm
-                                        giỏ hàng</a>
+                                        giỏ hàng
+                                    </a>
                                     <a href="{{route('mua_ngay', $item->product_slug)}}" title="Mua ngay"
-                                        class="buy-now fl-right">Mua ngay</a>
+                                        class="buy-now fl-right">Mua ngay
+                                    </a>
                                 </div>
                             </li>
                         @endforeach

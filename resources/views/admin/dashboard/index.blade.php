@@ -55,7 +55,9 @@
                         <th scope="col">Giá trị</th>
                         <th scope="col">Trạng thái</th>
                         <th scope="col">Thời gian</th>
-                        <th scope="col">Tác vụ</th>
+                        @canany(['order.act', 'order.detail', 'order.view'])
+                            <th scope="col">Tác vụ</th>
+                        @endcanany
                     </tr>
                 </thead>
                 <tbody>
@@ -80,10 +82,13 @@
                             @endif
                             <td>{{$item->created_at}}</td>
                             <td>
-                                <a href="{{route('order_detail', $item->id)}}"
-                                    class="btn btn-secondary btn-sm rounded-0 text-white" type="button"
-                                    data-toggle="tooltip" data-placement="top" title="Delete"><i
-                                        class="fas fa-info-circle"></i></a>
+                                @canany(['order.act', 'order.detail', 'order.view'])
+                                    <a href="{{route('order_detail', $item->id)}}"
+                                        class="btn btn-secondary btn-sm rounded-0 text-white" type="button"
+                                        data-toggle="tooltip" data-placement="top" title="Delete"><i
+                                            class="fas fa-info-circle"></i>
+                                    </a>
+                                @endcanany
                             </td>
                         </tr>
                     @endforeach

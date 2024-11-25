@@ -190,38 +190,50 @@
                         <a href="{{url('/')}}" title>Trang chủ</a>
                     </li>
                     <li>
-                        <a href="?page=category_product" title>Điện thoại</a>
+                        <a href="{{route('product_category', 'vot-cau-long')}}" title>Vợt cầu lông</a>
                         <ul class="sub-menu">
                             <li>
-                                <a href="?page=category_product" title="">Iphone</a>
-                            </li>
-                            <li>
-                                <a href="?page=category_product" title="">Samsung</a>
-                                <ul class="sub-menu">
-                                    <li>
-                                        <a href="?page=category_product" title="">Iphone X</a>
-                                    </li>
-                                    <li>
-                                        <a href="?page=category_product" title="">Iphone 8</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="?page=category_product" title="">Nokia</a>
+                                <a href="{{route('product_category', 'vot-yonex')}}" title="">Vợt Yonex</a>
                             </li>
                         </ul>
                     </li>
                     <li>
-                        <a href="?page=category_product" title>Máy tính bảng</a>
+                        <a href="{{route('product_category', 'giay-cau-long')}}" title>Giày cầu lông</a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="{{route('product_category', 'giay-lining')}}" title="">Giày Lining</a>
+                            </li>
+                        </ul>
                     </li>
                     <li>
-                        <a href="?page=category_product" title>Laptop</a>
+                        <a href="{{route('product_category', 'quan-ao-cau-long')}}" title>Quần áo cầu lông</a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="{{route('product_category', 'quan')}}" title="">Quần</a>
+                            </li>
+                            <li>
+                                <a href="{{route('product_category', 'ao')}}" title="">Áo</a>
+                            </li>
+                        </ul>
                     </li>
                     <li>
-                        <a href="?page=category_product" title>Đồ dùng sinh hoạt</a>
+                        <a href="{{route('product_category', 'balo-cau-long')}}" title>Balo cầu lông</a>
                     </li>
                     <li>
-                        <a href="?page=blog" title>Blog</a>
+                        <a href="{{route('product_category', 'phu-kien')}}" title>Phụ kiện</a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="{{route('product_category', 'day-cuoc-cang-vot')}}" title="">Dây cước căng
+                                    vợt</a>
+                            </li>
+                            <li>
+                                <a href="{{route('product_category', 'quan-can-cau-long')}}" title="">Quấn cán cầu
+                                    lông</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="{{url('bai-viet')}}" title>Blog-Tin Tức</a>
                     </li>
                     <li>
                         <a href="#" title>Liên hệ</a>

@@ -60,22 +60,7 @@
                             </div>
                             Dashboard
                         </a>
-                        <i class="arrow fas fa-angle-right"></i>
                     </li>
-                    <!-- <li class="nav-link">
-                        <a href="?view=list-post">
-                            <div class="nav-link-icon d-inline-flex">
-                                <i class="far fa-folder"></i>
-                            </div>
-                            Trang
-                        </a>
-                        <i class="arrow fas fa-angle-right"></i>
-
-                        <ul class="sub-menu">
-                            <li><a href="?view=add-post">Thêm mới</a></li>
-                            <li><a href="?view=list-post">Danh sách</a></li>
-                        </ul>
-                    </li> -->
                     @canany(['post.view', 'post.add', 'post.edit', 'post.delete'])
                         <li class="nav-link {{$module_active == 'post' ? 'active' : ''}}">
                             <a href="{{url('admin/post')}}">
